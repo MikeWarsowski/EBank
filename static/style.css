@@ -1,0 +1,166 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.nav-tabs {
+    border-bottom: 2px solid #dee2e6;
+}
+
+.nav-tabs .nav-link {
+    color: #6c757d;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+.nav-tabs .nav-link.active {
+    color: #0d6efd;
+    background-color: #fff;
+    border-bottom: 2px solid #0d6efd;
+}
+
+.search-container {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+}
+
+.results-container {
+    margin-top: 20px;
+}
+
+.record-item {
+    transition: transform 0.2s;
+    margin-bottom: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.record-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.record-name {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.record-details {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.record-details div {
+    margin-bottom: 5px;
+}
+
+.record-details strong {
+    color: #495057;
+}
+
+#customerSearchInput, #employeeSearchInput {
+    border-radius: 20px 0 0 20px;
+    border: 2px solid #e9ecef;
+    padding: 10px 20px;
+}
+
+#customerSearchInput:focus, #employeeSearchInput:focus {
+    border-color: #0d6efd;
+    box-shadow: none;
+}
+
+.btn-primary {
+    border-radius: 0 20px 20px 0;
+    padding: 10px 20px;
+}
+
+.alert {
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.text-muted {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+/* Transaction Styles */
+.transaction-section {
+    border-top: 1px solid #dee2e6;
+    padding-top: 1rem;
+}
+
+.transaction-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.transaction-history {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.transaction-item {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+.transaction-item.deposit {
+    border-left: 4px solid #28a745;
+}
+
+.transaction-item.withdrawal {
+    border-left: 4px solid #dc3545;
+}
+
+.transaction-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.25rem;
+}
+
+.transaction-type {
+    font-weight: bold;
+}
+
+.transaction-date {
+    color: #6c757d;
+    font-size: 0.875rem;
+}
+
+.transaction-amount {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.transaction-description {
+    color: #6c757d;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 8px 8px 0 0;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    border-radius: 0 0 8px 8px;
+} 
